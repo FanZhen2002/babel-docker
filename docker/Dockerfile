@@ -15,7 +15,7 @@ RUN sed -ie 's/short_open_tag = Off/short_open_tag = On /g' /etc/php.ini
 
 # get code
 #   git clone git://git.eclipse.org/gitroot/babel/server.git
-RUN git clone https://github.com/SchweizerischeBundesbahnen/babel-docker.git /var/www/babel
+RUN git clone https://github.com/FanZhen2002/babel-docker.git /var/www/babel
 
 # configure apache
 ADD config/babel.conf /etc/httpd/conf.d/
